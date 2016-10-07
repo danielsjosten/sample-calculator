@@ -11,7 +11,7 @@ public class MySubtractMethodsTest {
 	Calculator calc = new Calculator();
 	public static final Logger LOG = Logger.getLogger(Calculator.class.getName());
 	Random rand = new Random();
-	DecimalFormat df = new DecimalFormat("####,####");
+	DecimalFormat df = new DecimalFormat("#,####");
 
 	@Test
 	public void testSubtractSmallSizedPositiveNumbers() {
