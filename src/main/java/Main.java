@@ -8,7 +8,7 @@ public class Main {
 		Calculator calc = new Calculator();
 		
 		System.out.println(calc.add(5, 5));
-		
+		System.out.println(calc.subtract(10, 5));
 	}
 
 }
