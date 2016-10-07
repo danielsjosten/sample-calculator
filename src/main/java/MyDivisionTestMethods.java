@@ -66,12 +66,12 @@ public class MyDivisionTestMethods {
 
 	@Test
 	public void testZeros() {
-		double firstNumber = 0.0;
+		double firstNumber = 5.0;
 		double secondNumber = 0.0;
 		double result = 0.0;
 
 		for (int i = 0; i < 5; i++) {
-			firstNumber = 0.0;
+			firstNumber = 5.0;
 			secondNumber = 0.0;
 			result = firstNumber / secondNumber;
 
